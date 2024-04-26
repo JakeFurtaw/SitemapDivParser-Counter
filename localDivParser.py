@@ -4,7 +4,7 @@ from collections import Counter
 
 div_classes = []
 div_ids = []
-directory = Path('/home/jake/Programming/LangchainRAG-Chatbot/parsers/HTMLtoText')
+directory = Path('Enter Local Directory Name Here')
 
 
 for file_path in directory.glob('*.html'):

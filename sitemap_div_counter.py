@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from langchain_community.document_loaders.sitemap import SitemapLoader
 from collections import Counter
 
-SITEMAP = "https://www.towson.edu/sitemap.xml"
+SITEMAP = "Link to Sitemap Goes Here"
 
 loader = SitemapLoader(SITEMAP, continue_on_failure=True)
 documents = loader.load()
